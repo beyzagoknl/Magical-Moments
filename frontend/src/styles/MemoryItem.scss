@@ -1,0 +1,22 @@
+@import "./colors";
+
+.all-memory {
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  color: #ffffff;
+
+  .memory-image {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1rem;
+  }
+
+  .close {
+    background-color: red;
+    width: 10%;
+  }
+}

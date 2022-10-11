@@ -1,0 +1,39 @@
+@import "./colors";
+@import "./fonts";
+@import "./mixins";
+
+.header {
+  position: sticky;
+  top: 0;
+  nav {
+    @include flex-center;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: $main-color;
+
+    .ul-items {
+      @include flex-center;
+      margin-right: 8rem;
+      list-style: none;
+
+      .li-items {
+        a {
+          @include flex-center;
+          margin-left: 8rem;
+        }
+        .out-btn {
+          margin: 0 1rem;
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .logo {
+    text-transform: uppercase;
+    margin-right: 2rem;
+    font-family: $font-roboto;
+  }
+}
