@@ -9,7 +9,8 @@
     @include flex-center;
     justify-content: space-between;
     height: 4rem;
-    background-color: $cream-color;
+    background-color: $login-color;
+    margin-top: 4rem;
 
     .ul-items {
       @include flex-center;
@@ -17,10 +18,10 @@
       list-style: none;
 
       .li-items {
-        a {
-          @include flex-center;
-          margin-left: 8rem;
-        }
+        @include flex-center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 3rem;
         .out-btn {
           margin: 0 1rem;
           background: none;

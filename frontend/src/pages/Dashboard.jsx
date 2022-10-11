@@ -38,7 +38,7 @@ function Dashboard() {
   return (
     <>
       <section className="heading">
-        <h1>Welcome {user && user.name}</h1>
+        <h1 className="first-page">Welcome {user && user.name}</h1>
         <p>Your Magical Moments!</p>
       </section>
 

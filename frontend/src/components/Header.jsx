@@ -18,11 +18,6 @@ function Header() {
   return (
     <div className="header">
       <nav>
-        {user && (
-          <div className="logo">
-            <Link to="/">MemorySetter</Link>
-          </div>
-        )}
         <ul className="ul-items">
           {user ? (
             <li className="li-items">

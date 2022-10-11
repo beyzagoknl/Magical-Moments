@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { createMemory } from "../features/memories/memorySlice";
 import axios from "axios";
-
+import "../styles/MemoryForm.scss";
 function MemoryForm() {
   const [text, setText] = useState("");
   const [userFile, setUserFile] = useState({
