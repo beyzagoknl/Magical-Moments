@@ -34,4 +34,12 @@
     object-fit: cover;
     border-radius: 60%;
   }
+  input::file-selector-button {
+    @include button;
+    border-radius: 50px 20px;
+    border: 2px solid $orange-color;
+    padding: 0.3rem;
+    margin: 1rem;
+    @include hover;
+  }
 }

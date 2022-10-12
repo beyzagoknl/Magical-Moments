@@ -1,12 +1,13 @@
 @import "./colors";
 
 .all-memory {
-  border: 1px solid #ffffff;
+  border: 2px solid $orange-color;
+  border-radius: 50px 20px;
   display: flex;
   flex-direction: column;
   margin: 2rem;
   padding: 1rem;
-  color: #ffffff;
+  color: $cream-color;
 
   .memory-image {
     object-fit: cover;
@@ -16,7 +17,7 @@
   }
 
   .close {
-    background-color: red;
+    background-color: $gray-color;
     width: 10%;
   }
 }

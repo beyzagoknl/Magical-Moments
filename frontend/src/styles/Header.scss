@@ -7,13 +7,15 @@
   top: 0;
   nav {
     @include flex-center;
-    justify-content: space-between;
+
+    justify-content: flex-end;
     height: 4rem;
     background-color: $login-color;
     margin-top: 4rem;
 
     .ul-items {
       @include flex-center;
+
       margin-right: 8rem;
       list-style: none;
 
