@@ -4,11 +4,11 @@
 
 .
 
-![MagicalMoments!](../../public/images/1.png)
+![MagicalMoments!](/frontend/public/images/one.png)
 
-![MagicalMoments!](../../public/images/2.png)
+![MagicalMoments!](/frontend/public/images/two.png)
 
-![MagicalMoments!](../../public/images/3.png)
+![MagicalMoments!](/frontend//public/images/three.png)
 
 ## 2. Description
 
