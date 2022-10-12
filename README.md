@@ -8,7 +8,7 @@
 
 ![MagicalMoments!](/frontend/public/images/two.png)
 
-![MagicalMoments!](/frontend//public/images/three.png)
+![MagicalMoments!](/frontend/public/images/three.png)
 
 ## 2. Description
 
