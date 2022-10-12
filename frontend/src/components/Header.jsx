@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout, reset } from "../features/auth/authSlice";
 import "../styles/Header.scss";
-import "../../public/images/one.png";
 
 function Header() {
   const navigate = useNavigate();
