@@ -59,7 +59,12 @@ function MemoryForm() {
             onChange={(e) => setText(e.target.value)}
           />
           <label htmlFor="file">Image</label>
-          <input type="file" name="file" onChange={handleImageLoading} />
+          <input
+            type="file"
+            name="file"
+            accept="image/png, image/gif, image/jpeg"
+            onChange={handleImageLoading}
+          />
           {userFile.filePreview !== null ? (
             <img className="image-preview" src={userFile.filePreview} alt="" />
           ) : null}

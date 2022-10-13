@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { deleteMemory } from "../features/memories/memorySlice";
 import "../styles/MemoryItem.scss";
+
 function MemoryItem({ memory }) {
   const dispatch = useDispatch();
 
